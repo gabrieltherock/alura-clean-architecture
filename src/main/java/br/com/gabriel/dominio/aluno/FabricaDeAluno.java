@@ -1,4 +1,4 @@
-package br.com.gabriel;
+package br.com.gabriel.dominio.aluno;
 
 public class FabricaDeAluno {
 
@@ -12,5 +12,9 @@ public class FabricaDeAluno {
     public FabricaDeAluno comTelefone(String ddd, String numero) {
         this.aluno.adicionarTelefone(ddd, numero);
         return this;
+    }
+
+    public Aluno criar() {
+        return this.aluno;
     }
 }

@@ -1,5 +1,6 @@
-package br.com.gabriel;
+package br.com.gabriel.dominio.indicacao;
 
+import br.com.gabriel.dominio.aluno.Aluno;
 import lombok.Data;
 
 import java.time.LocalDateTime;

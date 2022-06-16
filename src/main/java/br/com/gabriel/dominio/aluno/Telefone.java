@@ -1,4 +1,4 @@
-package br.com.gabriel;
+package br.com.gabriel.dominio.aluno;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
